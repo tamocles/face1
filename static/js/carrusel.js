@@ -25,8 +25,6 @@ App.prototype.processingButton = function(event){
   btn.dataset.button == 'button-prev' ? prevAction(leftPosition,carruselWidth,track) : nextAction(leftPosition,trackWidth,listWidth,carruselWidth,track,carrusel);
 }
 
-
-
 let prevAction = (leftPosition,carruselWidth,track)=>{
   if(leftPosition > 0){
     track.style.left=`${-1 * (leftPosition - carruselWidth)}px`;

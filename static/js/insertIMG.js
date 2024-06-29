@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function(){
   const url = ["black.png","blue.png","white.png","yellow.png"];
   const img = document.querySelectorAll(".insertImg");
   const imgPersona = document.querySelector(".imgPersona");
